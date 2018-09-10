@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="front end web developer portfolio">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lazy loading</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Lazy loading</h1>
+    <section>
+<!--         <picture>
+<source media="(min-width: 1200px)" srcset="images/1_highest.jpg">
+<source media="(min-width: 800px)" srcset="images/1_higher.jpg">
+<source media="(min-width: 500px)" srcset="images/1_high.jpg">
+<img src="images/1_mobile.jpg" alt="Image of Curiosity rover on mars planet" style="width:auto;">
+</picture> -->
+
+        <article>
+            <figure>
+            <img class="js-lazy-image" data-src="images/a.jpg" alt="Image of Curiosity rover on mars planet" />
+            <figcaption>Image of curiosity rover on planet mars</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <figure>
+            <img class="js-lazy-image" data-src="images/b.jpg" alt="Image representation of head transplant" />
+            <figcaption>Image representation of head transplant</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <figure>
+            <img class="js-lazy-image" data-src="images/c.jpg" alt="Image of an astronaut on moon" />
+            <figcaption>Image of an astronaut on moon</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <figure>
+            <img class="js-lazy-image" data-src="images/d.jpg" alt="Image of two cloned monkeys" />
+            <figcaption>Image of two cloned monkeys</figcaption>
+            </figure>
+        </article>
+
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
